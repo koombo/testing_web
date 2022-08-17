@@ -1,0 +1,146 @@
+/*    font-family: 'Oswald', sans-serif;*/
+
+/*    font-family: 'Roboto', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+
+    {
+    margin: 0;
+    padding: 0;
+    /*    box-sizing: border-box;*/
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Merriweather', serif;
+}
+
+/*nawigacja*/
+nav {
+    max-width: 1440px;
+    margin: 30px auto;
+    text-align: right;
+
+}
+
+nav a {
+    display: inline-block;
+    font-size: 1.8rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #252617;
+    padding: 10px;
+    margin: 0 20px;
+}
+
+nav a.kontakt {
+    font-size: 2.2rem;
+    border: 2px solid #555;
+    padding: 10px 30px;
+    letter-spacing: 1px;
+    margin-right: 50px;
+    margin-left: 80px;
+    transition: .5s;
+}
+
+nav a.kontakt:hover {
+    background-color: #34401A;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px solid #555;
+    color: #252617;
+    border-color: #34401A;
+
+}
+
+
+/*header*/
+
+header {
+    height: 35vh;
+    background-image: url('drzewo.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h1 {
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    line-height: 35vh;
+    max-height: 35vh;
+    background-color: rgba(0, 0, 0, 50%);
+    /*    rgba pozwala ustalić przezroczystość obrazka czyli kontrast - tu daliśmy na 50% czyli o tyle przyciemniliśmy obrazek*/
+}
+
+/*main*/
+main {
+    max-width: 1440px;
+    margin: 5vh auto;
+    font-size: 0;
+    /*    przez to że rodzic ma fz 0 to nie ma między elementami 3px przerwy*/
+}
+
+main p.description {
+    font-size: 2.2rem;
+    text-align: center;
+    margin: 0 30px 50px 30px;
+    line-height: 170%;
+}
+
+main section.features {
+    background-color: #B4BF5E;
+    padding-bottom: 30px;
+    max-height: 400px;
+}
+
+main div.feature {
+    display: inline-block;
+    width: 33.33%;
+
+}
+
+img {
+    height: 200px;
+    margin: 20px 90px;
+    transition: 0.5s;
+
+}
+
+img:hover {
+    height: 210px;
+    opacity: 0.8;
+}
+
+/*main div.image {*/
+/*    height: 200px;*/
+/*    background-color: #34401A;*/
+/*    margin: 20px 30px;*/
+
+/*}*/
+
+/*main div.image:hover {*/
+/*    background-color: #64732F;*/
+/*}*/
+
+main h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: #252617;
+}
+
+/*stopka*/
+
+footer {
+    background-color: #000;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    font-size: 2rem;
+}
