@@ -57,7 +57,7 @@ nav a:hover {
 
 header {
     height: 35vh;
-    background-image: url('drzewo.jpg');
+    background-image: url(https://cdn.pixabay.com/photo/2014/04/17/23/26/environmental-protection-326923_960_720.jpg);
     background-size: cover;
     background-position: center;
 }
