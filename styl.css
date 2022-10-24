@@ -1,13 +1,11 @@
-/*    font-family: 'Oswald', sans-serif;*/
 
-/*    font-family: 'Roboto', sans-serif;*/
 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Roboto+Condensed:wght@300&display=swap');
 
     {
     margin: 0;
     padding: 0;
-    /*    box-sizing: border-box;*/
+   
 }
 
 html {
@@ -15,7 +13,6 @@ html {
     font-family: 'Merriweather', serif;
 }
 
-/*nawigacja*/
 nav {
     max-width: 1440px;
     margin: 30px auto;
@@ -57,7 +54,6 @@ nav a:hover {
 }
 
 
-/*header*/
 
 header {
     height: 35vh;
@@ -73,15 +69,15 @@ header h1 {
     line-height: 35vh;
     max-height: 35vh;
     background-color: rgba(0, 0, 0, 50%);
-    /*    rgba pozwala ustalić przezroczystość obrazka czyli kontrast - tu daliśmy na 50% czyli o tyle przyciemniliśmy obrazek*/
+    
 }
 
-/*main*/
+
 main {
     max-width: 1440px;
     margin: 5vh auto;
     font-size: 0;
-    /*    przez to że rodzic ma fz 0 to nie ma między elementami 3px przerwy*/
+   
 }
 
 main p.description {
@@ -115,16 +111,6 @@ img:hover {
     opacity: 0.8;
 }
 
-/*main div.image {*/
-/*    height: 200px;*/
-/*    background-color: #34401A;*/
-/*    margin: 20px 30px;*/
-
-/*}*/
-
-/*main div.image:hover {*/
-/*    background-color: #64732F;*/
-/*}*/
 
 main h2 {
     font-size: 2rem;
@@ -132,7 +118,7 @@ main h2 {
     color: #252617;
 }
 
-/*stopka*/
+
 
 footer {
     background-color: #000;
